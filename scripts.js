@@ -1,5 +1,14 @@
 console.log(document.title);
 
+const parrafo = document.getElementById("gen-1")
+parrafo.textContent = 'Generasión 1 Pokimon';
+
+//cambiar fondo con id
+const elemento = document.getElementById("gen1");
+elemento.style.backgroundColor = "#bc5ae9"; 
+
+console.log(document.title);
+
 //Enlace Pokedex
 console.log(window.location.href)
 
